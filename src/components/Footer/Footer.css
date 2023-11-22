@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #868686;
+    background:#000;
+    margin-top: 24px;
+}
+
+footer img{
+    width: 180px;
+}
+
+footer p{
+    color: white;
+}
+
+footer h3 {
+    font-size: 36px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+footer h3:hover {
+    transform: scale(1.05);
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: var(--color-footer-text);
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #868686;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer svg{
+    color: white;
+}
+
+footer svg:hover{
+    color: rgb(179, 179, 179);
+}
